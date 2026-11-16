@@ -20,8 +20,8 @@ new_sqlite_classes = ["GameDO"]
 
 [vars]
 # Comma-separated list of front-end origins allowed to talk to the server.
-# Replace with your GitHub Pages origin before deploying, e.g. https://yourname.github.io
-ALLOWED_ORIGINS = "https://YOUR-GITHUB-USERNAME.github.io"
+# The GitHub Pages origin (no path). Local dev overrides this with "*" in .dev.vars.
+ALLOWED_ORIGINS = "https://clichen99.github.io"
 
 # ADMIN_SECRET is NOT set here. Set it with:  npx wrangler secret put ADMIN_SECRET
 # For local development it lives in .dev.vars (gitignored), created by `npm run dev`.

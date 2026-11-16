@@ -82,7 +82,7 @@ The front end is static (GitHub Pages). The game server is a Cloudflare Worker w
 ### 1. Game server (Cloudflare, free plan)
 
 1. Create a free Cloudflare account and run `npx wrangler login`.
-2. In `wrangler.toml`, set `ALLOWED_ORIGINS` to your Pages origin, e.g. `https://<your-github-username>.github.io` (origin only, no path).
+2. `ALLOWED_ORIGINS` in `wrangler.toml` is set to `https://clichen99.github.io`. Change it if the front end moves (origin only, no path; comma-separate several).
 3. Set the admin secret (a long random string, 32+ characters). It is never stored in the repo:
    ```bash
    npx wrangler secret put ADMIN_SECRET

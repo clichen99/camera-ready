@@ -1,0 +1,27 @@
+name = "camera-ready"
+main = "server/src/index.ts"
+compatibility_date = "2025-09-01"
+workers_dev = true
+
+# Keep platform request logging off: no IPs, user agents, or headers retained by us.
+[observability]
+enabled = false
+
+[observability.logs]
+invocation_logs = false
+
+[[durable_objects.bindings]]
+name = "GAME"
+class_name = "GameDO"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["GameDO"]
+
+[vars]
+# Comma-separated list of front-end origins allowed to talk to the server.
+# Replace with your GitHub Pages origin before deploying, e.g. https://yourname.github.io
+ALLOWED_ORIGINS = "https://YOUR-GITHUB-USERNAME.github.io"
+
+# ADMIN_SECRET is NOT set here. Set it with:  npx wrangler secret put ADMIN_SECRET
+# For local development it lives in .dev.vars (gitignored), created by `npm run dev`.

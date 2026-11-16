@@ -1,0 +1,111 @@
+{
+  "house": "THE PUBLISHER",
+  "tagline": "The house always gets published.",
+  "pointsName": "pts",
+  "noMoney": "Points only. No money, no prizes, nothing to buy or redeem.",
+
+  "join": {
+    "title": "ENTER YOUR INITIALS",
+    "subtitle": "Three letters. No names, no emails, no affiliations.",
+    "hint": "Use ▲ ▼ or type a letter. Enter to submit.",
+    "ageConfirm": "I am 18 or older.",
+    "submit": "CLAIM STARTUP FUNDS",
+    "blocked": "THE PUBLISHER has declined these initials. Please revise and resubmit.",
+    "invalid": "Initials must be three letters, A to Z.",
+    "welcome": "Congratulations on your startup funds. They will not be renewed."
+  },
+
+  "slip": {
+    "title": "YOUR SLIP CODE",
+    "warning": "Write this down or take a screenshot. THE PUBLISHER will never show it again.",
+    "explain": "This code is your only key. Use it to come back on any device, and to report your paper's outcome months from now.",
+    "continue": "I HAVE SAVED IT",
+    "restoreTitle": "RETURNING AUTHOR?",
+    "restoreHint": "Enter your slip code to restore your session.",
+    "restoreSubmit": "RESTORE",
+    "restoreFailed": "No record of that slip code. THE PUBLISHER regrets nothing.",
+    "notOnThisDevice": "Your slip code is not stored on this device. If you saved it, you are fine."
+  },
+
+  "home": {
+    "balance": "BALANCE",
+    "live": "LIVE MICROBETS",
+    "futures": "FUTURES",
+    "empty": "No open markets. THE PUBLISHER is preparing new opportunities.",
+    "closesIn": "closes in",
+    "closed": "CLOSED · awaiting decision",
+    "pool": "pool",
+    "autopilotNote": "Decided by THE PUBLISHER's peer review process."
+  },
+
+  "bet": {
+    "yes": "YES",
+    "no": "NO",
+    "stake": "STAKE",
+    "max": "MAX",
+    "confirm": "CONFIRM BET",
+    "placed": "Bet accepted. THE PUBLISHER thanks you for your submission.",
+    "insufficient": "Insufficient funds. Have you considered applying for a grant?",
+    "belowMin": "Minimum stake is {min} pts.",
+    "closed": "This market has closed.",
+    "rateLimited": "Too many submissions. Please wait for the review cycle."
+  },
+
+  "result": {
+    "won": "ACCEPTED",
+    "lost": "REJECTED",
+    "void": "WITHDRAWN",
+    "wonDetail": "You won {payout} pts on a {stake} pt stake.",
+    "lostDetail": "Your {stake} pt stake has been absorbed by the pool.",
+    "voidDetail": "Market withdrawn. Your {stake} pts were returned."
+  },
+
+  "nav": {
+    "home": "Markets",
+    "bets": "My bets",
+    "slip": "My slip",
+    "about": "About this piece"
+  },
+
+  "bets": {
+    "open": "OPEN",
+    "history": "HISTORY",
+    "none": "No bets yet. The pool is waiting."
+  },
+
+  "board": {
+    "scan": "SCAN TO PLAY",
+    "selfServe": "No staff needed. THE PUBLISHER is always open.",
+    "leaders": "TOP BALANCES",
+    "take": "TOTAL TAKE",
+    "featured": "FEATURED MARKET",
+    "ticker": "LIVE WIRE",
+    "staked": "{who} staked {stake} on {side}",
+    "resolved": "RESOLVED: {question} → {outcome}",
+    "voided": "WITHDRAWN: {question}",
+    "joined": "{who} received startup funds",
+    "offline": "Reconnecting…"
+  },
+
+  "about": {
+    "title": "About this piece",
+    "body": [
+      "Camera Ready is a satirical artwork and research demo. It moves the engagement design of commercial sports betting apps onto academic publishing, so you can feel the incentive structure many researchers already work inside.",
+      "No real money is involved. Points have no value and cannot be bought, sold, won, or redeemed.",
+      "Play is anonymous. You are identified only by three initials and a slip code that only you hold."
+    ],
+    "supportTitle": "If gambling is affecting you or someone you know",
+    "supportLinks": [
+      { "label": "National Problem Gambling Helpline (US): 1-800-GAMBLER", "href": "https://www.ncpgambling.org/help-treatment/" },
+      { "label": "GamCare (UK)", "href": "https://www.gamcare.org.uk/" }
+    ]
+  },
+
+  "finePrint": "If you or a colleague has a resubmission problem, contact your advisor.",
+
+  "errors": {
+    "generic": "THE PUBLISHER encountered an error. Please resubmit.",
+    "offline": "Connection lost. Retrying…",
+    "notJoined": "Please enter your initials first."
+  }
+}

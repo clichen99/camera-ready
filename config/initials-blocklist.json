@@ -1,0 +1,11 @@
+{
+  "_comment": "Three-letter strings players cannot use as initials. Uppercase A-Z only. Edit freely.",
+  "blocked": [
+    "ASS", "AZZ", "BCH", "BJS", "CLT", "CNT", "COC", "COK", "CUK", "CUM", "CUN",
+    "DCK", "DIC", "DIK", "DIX", "DMN", "FAG", "FAP", "FCK", "FKU", "FGT", "FUC",
+    "FUK", "FUQ", "FUX", "FVK", "HOE", "HOR", "JIZ", "JIS", "KKK", "KYS",
+    "NAZ", "NGA", "NGR", "NIG", "PDO", "PED", "PIS", "PNS",
+    "RAP", "RPE", "SEX", "SHT", "SLT", "SUK", "TIT", "TWT", "VAG", "WHR", "WTF",
+    "XXX"
+  ]
+}
